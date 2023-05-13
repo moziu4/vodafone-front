@@ -1,0 +1,52 @@
+.fondo {
+  background-color: #222629;
+  height: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.titulo {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.enlaces {
+  color: white;
+  font-size: 18px;
+  padding: 8px 25px;
+  text-decoration: none;
+
+  font-family: "Vodafone-Regular";
+}
+.enlaces a {
+  text-align: right;
+}
+
+.enlaces:hover {
+  color: White;
+}
+
+.linias {
+  list-style: none;
+  padding: 10px;
+}
+
+.liniasActivas {
+  background-color: #1d2023;
+  list-style: none;
+  padding: 10px;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}

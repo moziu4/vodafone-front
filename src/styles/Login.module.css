@@ -1,0 +1,92 @@
+.fondo {
+  background-color: #df0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedor {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 30px;
+  margin-bottom: 80px;
+}
+
+.tituloLogin {
+  font-size: 31px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.imagenLogo {
+  display: flex;
+  margin: auto;
+}
+
+.contenedorMensaje {
+  padding: 8px 11px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.contenedorCampos {
+  margin-bottom: 15px;
+  flex-direction: column;
+  display: flex;
+}
+.campo {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px 8px;
+  appearance: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.campo:hover {
+  border: 1px solid black;
+}
+
+.campo:focus {
+  border: 1px solid black;
+}
+
+.label {
+  font-size: 17px;
+  padding: 4px 0px;
+  color: black;
+  font-weight: 700;
+}
+
+.botonLogin {
+  border: #df0000;
+  border-radius: 20px;
+  background-color: #df0000;
+  color: white;
+  font-family: "Vodafone-Regular";
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 8px 14px;
+}
+
+.contenedorForm {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.botonLogin:hover {
+  border: #b11515;
+  background-color: #b11515;
+}

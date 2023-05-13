@@ -1,0 +1,34 @@
+{
+  "name": "vodafone-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier . --write",
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.9",
+    "@cucumber/cucumber": "^9.1.0",
+    "apollo-link-context": "^1.0.20",
+    "bootstrap": "^5.2.3",
+    "chai": "^4.3.7",
+    "chromedriver": "^113.0.0",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.2.1",
+    "formik": "^2.2.9",
+    "graphql": "^16.6.0",
+    "next": "13.2.1",
+    "node-fetch": "^3.3.0",
+    "prettier": "^2.8.4",
+    "react": "18.2.0",
+    "react-datepicker": "^4.10.0",
+    "react-dom": "18.2.0",
+    "selenium-webdriver": "^4.9.2",
+    "sweetalert2": "^11.7.3",
+    "yup": "^1.0.2"
+  }
+}

@@ -1,0 +1,182 @@
+.containerComercial {
+  margin-top: 60px;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+.tituloH1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contenedorListaUsuarios {
+  justify-content: center;
+}
+.columnHead {
+  background-color: #df0000;
+  color: white;
+  font-family: "Vodafone-Regular";
+  text-align: center;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  border-top: 1px black solid;
+  padding: 4px 12px;
+}
+
+.columnBody {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px gray solid;
+  border-right: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  text-align: center;
+}
+.botonCrear {
+  border: #df0000;
+  border-radius: 20px;
+  background-color: #df0000;
+  color: white;
+  font-family: "Vodafone-Regular";
+  font-weight: 600;
+  padding: 8px 14px;
+}
+
+.botonCrear:hover {
+  border: #b11515;
+  background-color: #b11515;
+}
+
+.botonIconos {
+  background-color: transparent;
+  border: none;
+}
+
+.contenedorBotonCrear {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 35px;
+  padding-right: 13%;
+}
+
+.contenedorBotonCrearRegistro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentNuevoUsuario {
+  padding: 50px 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.btnForm {
+  border-color: #df0000;
+  border-radius: 20px;
+  background-color: #df0000;
+  display: flex;
+  margin: auto;
+  padding: 8px 14px;
+}
+
+.btnForm:hover {
+  border-color: #b11515;
+  background-color: #b11515;
+}
+
+.botonVer {
+  border: none;
+  background-color: transparent;
+}
+
+.campoFiltros {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.contentFiltro {
+  padding: 5px 5px;
+}
+
+.noRegistros {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 240px;
+}
+
+.iconosEditar {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.fondoNotas {
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+  position: fixed;
+}
+.contentNotas {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  height: 250px;
+  width: 650px;
+
+  z-index: 999;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0 0 1px 1px grey;
+}
+
+.contentTituloNotas {
+  background-color: #df0000;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  /* adjustment */
+  position: relative;
+}
+
+.tituloNotas {
+  margin-bottom: 0px;
+  flex: 0 1 auto;
+  position: relative;
+  /* new */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tituloNotas h3 {
+  color: white;
+}
+
+.contentTextoNotas {
+  overflow-y: scroll;
+  padding: 15px;
+  height: 190px;
+}
+
+.botonCerrar {
+  background-color: transparent;
+  border: none;
+  color: white;
+  flex: 0 1 auto;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 8px;
+}

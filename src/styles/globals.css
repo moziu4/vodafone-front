@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Vodafone-Regular";
+  src: local("Vodafone-Regular"),
+    url(../assets/fonts/Vodafone-Regular.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+p {
+  font-family: "Vodafone-Regular";
+}
+
+h1 {
+  font-family: "Vodafone-Regular";
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+/*  FORMS  */
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px !important;
+}
+
+.error {
+  color: red;
+  background-color: whitesmoke;
+  border-left: 3px solid red;
+}
+
+.error p {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.transparent {
+  color: transparent;
+}
+.contenedorPassword {
+  display: flex;
+  justify-content: center;
+}

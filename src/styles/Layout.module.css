@@ -1,0 +1,85 @@
+.fondo {
+  background-color: #f3f3f3;
+  padding-bottom: 60px;
+  min-height: 100vh;
+}
+
+.fondoSide {
+  background-color: #222629;
+  padding-left: 0px;
+  padding-right: 0px;
+  z-index: 99;
+}
+
+.pantalla {
+  width: 100%;
+  margin: 0;
+}
+.movilBar {
+  background-color: white;
+  box-shadow: 0 1.5px 2px -2px gray;
+}
+
+@media (min-width: 801px) {
+  .contentConfi {
+    display: flex;
+    justify-content: space-around;
+  }
+  .confiUsuario {
+    display: flex;
+    margin-top: 35px;
+    align-items: baseline;
+  }
+
+  .textoConfiUsuario {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: white;
+  }
+  .textoConfiUsuario p {
+    margin-bottom: 2px !important;
+  }
+
+  .btnConfiUsuario {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    color: white;
+    padding: 4px 12px;
+  }
+
+  .textoConfiRol {
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .movilBar {
+    display: none;
+  }
+  .fondo {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 800px) {
+  .fondo {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 12vh;
+    width: 100%;
+  }
+  .fondoSide {
+    display: none;
+  }
+
+  .movilBar {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    z-index: 99;
+  }
+}
